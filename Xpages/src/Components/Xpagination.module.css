@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+    height:80vh;
+    border-collapse: collapse;
+    border-bottom: 5px solid #048c7f;
+}
+
+th, tr{
+border: 1px solid #048c7f;
+text-align:left;
+padding:10px;
+}
+.btn{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color:#048c7f;
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    background-color:#048c7f;
+    width: 15px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+   color: #ffffff;
+}
