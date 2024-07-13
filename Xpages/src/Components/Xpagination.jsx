@@ -28,13 +28,7 @@ try{
     const indexfirstRow = indexLastRow - eachPagecontainrow //10-10
     const actualRowData = tableData.slice(indexfirstRow, indexLastRow)//(0, 10)
 
-    // // handling previous button click
-    //  const handlePreviousButton=()=>{
-    //     if(currentData>1){
-    //         setCurrentData(currentData - 1)
-    //     }
-    //  }
-     // handling Nextbutton click
+   // handling Nextbutton click
      const handleNextButton=()=>{
         if(indexLastRow < tableData.length){
          setCurrentData(currentData + 1)
