@@ -68,9 +68,9 @@ try{
           </table>
            
         
-       <div className={styles.btn} >
+       <div className={styles.btn} > 
         <button onClick={handlePreviousButton} disabled={currentData===1}>Previous</button>
-        <p>{currentData}</p>
+          <p>{currentData}</p>
         <button onClick={handleNextButton}  disabled={indexLastRow >= tableData.length}>Next</button>
       </div>
     </div>
